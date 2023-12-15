@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ui2.css">
+  <link rel="stylesheet" href="ui.css">
+  <title>Interação</title>
+</head>
+<body>
+    <a href="ui.html"><img src="voltar.png" width="40px" height="40px" alt="img"></a>
+    <input class="toggle-btn" type="button" value="Alternar tema" onclick="muda()">
+
+
+  <header><h1 class="original">Cadastre-se para Receber Mais Informações</h1></header>
+
+ <main>
+     <form action="processar_cadastro.php" method="post">
+    <label  for="nome"><b>Nome:</b></label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email"><b>E-mail:</b></label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+
+  <h2 class="chamativo">Dê sua Opinião</h2>
+
+  <form action="processar_feedback.php" method="post">
+    <label for="feedback"><b>Sua Opinião:</b></label>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Enviar Opinião">
+  </form>
+  
+  <script src="ui2.js"></script>
+</main>
+
+</body>
+</html>

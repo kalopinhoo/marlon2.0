@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#007bff 50%, transparent 50%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 20px; 
+  scale: 66%;
+  
+}
+
+  
+  .container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #007bff;
+    border-bottom: 50px solid #007bff;
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.685); 
+  }
+
+  .info-superior{
+    margin: 50px;
+  }
+
+  .identificacao {
+    float: right;
+    width: 40%;
+    text-align: center;
+  }
+
+  .identificacao img {
+    margin-top: -210px;
+    width: 80%;
+    border-radius: 50%;
+    border: 10px solid #007bff; 
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .botao,
+  .botao1 {
+    margin: 15px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 10px;
+    padding: 15px 30px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    box-shadow: 0 0  30px #000000; 
+  }
+ 
+  .info-inferior {
+    margin: 50px;
+    padding: auto;
+  }
+
+  h1, h2 {
+    font-size: 60px;
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  body.dark-theme {
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+  }
+  
+  .dark-theme .container {
+    background-color: #333; 
+    border-color: #555; 
+    color: #ffffff; 
+  }
+
+
+
+
+
+
+
+  

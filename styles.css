@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cv {
+    max-width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    background-color: #525252;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/1157507394994188378/1181413299519246386/trabalhosss.png?ex=6580f7e0&is=656e82e0&hm=cbe7938c243777da7543d1ef822332694e8c69169172321c483a0edd7cc2fa76&');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-info h1 {
+    margin-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.job, .education {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
